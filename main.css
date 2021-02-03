@@ -9,11 +9,12 @@ body{
   margin: 0;
   background-color: #f4f4f4;
 }
-.container{
+.container div{
   width: 80%;
   margin:auto;
   overflow: hidden;
 }
+
 ul{
   margin: 0;
   padding: 0;
@@ -60,6 +61,7 @@ header .branding{
   float: left;
 }
 header .branding h1{
+  color: black;
   margin: 0;
   margin-left:200px;
   margin-top: 20px;
@@ -68,10 +70,12 @@ h1{
   float: bottom;
 }
 header nav{
+  background-color: black;
+  color: #f4f4f4;
   float: right;
-  margin-top: 10px;
+  margin-bottom: 50px;
 }
-header a:hover{
+header nav a:hover{
   color: red;
 }
 .showcase{
@@ -328,4 +332,41 @@ a{
 }
 .footericons ul li a:hover{
   color: red;
+}
+
+@media screen and (max-width:39.9375em){
+ .container .showcase .pages .whatsup .theform .last{
+   align-items: center;
+   justify-content: center;
+   color: black;
+ }
+}
+@media screen and (min-width:40em){
+  .container .showcase .pages .whatsup .theform .last{
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+}
+
+@media screen and(min-width:40em)and(max-width:63.9375em){
+  .container .showcase .pages .whatsup .theform .last{
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+}
+@media screen and (min-width:64em){
+  .container .showcase .pages .whatsup .theform .last{
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+}
+@media screen and(min-width:64em)and(max-width:74.9375em){ 
+  .container .showcase .pages .whatsup .theform .last{
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
 }
